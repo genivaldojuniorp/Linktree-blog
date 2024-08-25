@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Marquezine</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        .foto img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            display: block;
+            margin: 20px auto;
+        }
+
+        h1, p {
+            margin: 10px;
+        }
+
+        .social-links {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            margin: 0 auto;
+            padding: 0;
+        }
+
+        .social-links div {
+            background-color: white;
+            width: 100px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .social-links a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        /* Responsivo para tablets */
+        @media (max-width: 768px) {
+            .foto img {
+                width: 250px;
+                height: 250px;
+            }
+
+            .social-links div {
+                width: 90px;
+                padding: 8px;
+            }
+        }
+
+        /* Responsivo para celulares */
+        @media (max-width: 480px) {
+            .foto img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .social-links div {
+                width: 80%;
+                max-width: 150px;
+                margin-bottom: 10px;
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="foto">
+        <img src="/Users/genivaldojunior/Downloads/brunamarquezine.jpeg" alt="Bruna Marquezine"/>
+    </div>
+
+    <h1>Bruna Marquezine</h1>
+    <p>Brazilian Actress</p>
+
+    <div class="social-links">
+        <div class="facebook">
+            <a href="https://facebook.com/facebook">Facebook</a>
+        </div>
+        <div class="twitter">
+            <a href="https://x.com/x">Twitter/X</a>
+        </div>
+        <div class="youtube">
+            <a href="https://youtube.com/youtubebrasil">Youtube</a>
+        </div>
+        <div class="instagram">
+            <a href="https://instagram.com/instagram">Instagram</a>
+        </div>
+        <div class="tiktok">
+            <a href="https://tiktok.com/@tiktok">Tiktok</a>
+        </div>
+        <div class="myblog">
+            <a href="myblog.html">My Blog</a>
+        </div>
+    </div>
+</body>
+</html>

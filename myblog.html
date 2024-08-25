@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruna Marquezine - Blog</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+        }
+
+        .blog-title {
+            font-size: 2.5em;
+margin-bottom: 20px;
+color: #333;
+padding: 10px;
+text-align: center;
+        }
+
+        .post {
+            background-color: #fff; /* Fundo uniforme para os posts */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+            text-align: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centralizar o conteúdo dos posts */
+            border-radius: 4px; /* Bordas levemente arredondadas para um visual mais suave */
+            overflow: hidden;
+        }
+
+        .post h2 {
+            margin: 0;
+            color: #333;
+            text-align: center; /* Centralizar o título do post */
+        }
+
+        .post p {
+            margin: 10px 0;
+            color: #555;
+        }
+
+        .post-info {
+            display: flex;
+            justify-content: center; /* Centralizar a informação do post */
+            width: 100%;
+            color: #777;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+
+        .post-info span {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        .code-block {
+            margin: 0;
+            white-space: pre-wrap; /* Quebrar linha se necessário */
+            background-color: #f8f8f8; /* Fundo uniforme para o código */
+            padding: 10px;
+            font-family: monospace;
+            color: #333;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            overflow: auto; /* Adicionar rolagem se necessário */
+            width: 100%;
+            box-sizing: border-box;
+            overflow-wrap: break-word; /* Quebrar palavras longas */
+        }
+
+        .btn {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        /* Responsivo para tablets */
+        @media (max-width: 768px) {
+            .blog-title {
+                font-size: 2em;
+            }
+
+            .post h2 {
+                font-size: 1.5em;
+            }
+
+            .post p {
+                font-size: 0.9em;
+            }
+
+            .btn {
+                font-size: 14px;
+            }
+        }
+
+        /* Responsivo para celulares */
+        @media (max-width: 480px) {
+            .container {
+                padding: 5px;
+            }
+
+            .blog-title {
+                font-size: 1.8em;
+            }
+
+            .post {
+                padding: 15px;
+            }
+
+            .post h2 {
+                font-size: 1.2em;
+            }
+
+            .post p {
+                font-size: 0.8em;
+            }
+
+            .btn {
+                padding: 8px 15px;
+                font-size: 12px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="blog-title">
+            <h1>Bruna Marquezine</h1>
+        </div>
+        
+        <div class="post">
+            <h2>TITULO DO PRIMEIRO POST</h2>
+            <div class="post-info">
+                <span>Autor: Bru Marquezine</span>
+                <span>Data: 25 de Agosto, 2024</span>
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac orci ac lorem pretium aliquet. Sed tincidunt, lacus eu fermentum faucibus, ligula orci vulputate nisi, eget ullamcorper dui est et erat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac orci ac lorem pretium aliquet. Sed tincidunt, lacus eu fermentum faucibus, ligula orci vulputate nisi, eget ullamcorper dui est et erat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac orci ac lorem pretium aliquet. Sed tincidunt, lacus eu fermentum faucibus, ligula orci vulputate nisi, eget ullamcorper dui est et erat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ac orci ac lorem pretium aliquet. Sed tincidunt, lacus eu fermentum faucibus, ligula orci vulputate nisi, eget ullamcorper dui est et erat.</p>
+
+            <!-- Exemplo de código longo -->
+        
+        </div>
+
+        <div class="post">
+            <h2>TITULO DO SEGUNDO POST</h2>
+            <div class="post-info">
+                <span>Autor: Bru Marquezine</span>
+                <span>Data: 24 de Agosto, 2024</span>
+            </div>
+            <p>Maecenas euismod urna vel mauris vehicula, nec malesuada risus cursus. Vestibulum ut nulla nec erat varius scelerisque. In convallis magna sit amet augue faucibus, ac pharetra mi tincidunt.</p>
+            <p>Maecenas euismod urna vel mauris vehicula, nec malesuada risus cursus. Vestibulum ut nulla nec erat varius scelerisque. In convallis magna sit amet augue faucibus, ac pharetra mi tincidunt.</p>
+            <p>Maecenas euismod urna vel mauris vehicula, nec malesuada risus cursus. Vestibulum ut nulla nec erat varius scelerisque. In convallis magna sit amet augue faucibus, ac pharetra mi tincidunt.</p>
+            <p>Maecenas euismod urna vel mauris vehicula, nec malesuada risus cursus. Vestibulum ut nulla nec erat varius scelerisque. In convallis magna sit amet augue faucibus, ac pharetra mi tincidunt.</p>
+            
+            <!-- Exemplo de código longo -->
+            
+        </div>
